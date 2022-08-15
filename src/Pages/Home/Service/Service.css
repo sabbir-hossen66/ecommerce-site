@@ -1,0 +1,14 @@
+.primary {
+    color: rgb(212, 51, 172);
+    text-align: center;
+    /* display: inline; */
+}
+
+.service-container {
+    border: 1px solid goldenrod;
+    border-radius: 2rem;
+    text-align: center;
+    margin: 2rem;
+    padding-bottom: 3rem;
+
+}

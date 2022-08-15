@@ -1,0 +1,43 @@
+.main {
+    display: flex;
+    padding: 2rem;
+    background-color: black;
+}
+
+.left-side {
+    margin-right: 5rem;
+}
+
+
+
+.headline {
+    font-family: cursive;
+    color: orange;
+    font-weight: 700;
+
+}
+
+.paragraph {
+    font-family: inherit;
+    color: white;
+
+
+}
+
+.thanks {
+    color: darkorchid;
+    text-align: center;
+
+}
+
+@media screen and (max-width:576px) {
+    .main {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width:577px) and (max-width:992px) {
+    .main {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
