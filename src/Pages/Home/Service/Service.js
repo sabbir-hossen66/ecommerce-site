@@ -11,7 +11,9 @@ const Service = ({ service }) => {
             <p>Price: {price}</p>
             <h4>Name: {name}</h4>
             <p>{description}</p>
-            <button>Buy: {name}</button>
+            <a href="/">
+                <button className='button-style'>Buy: {name}</button>
+            </a>
 
 
         </div>
