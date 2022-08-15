@@ -16,5 +16,7 @@
 
 .offer {
     text-align: center;
-    color: orange;
+    color: red;
+    font-family: serif;
+    font-weight: 600;
 }
